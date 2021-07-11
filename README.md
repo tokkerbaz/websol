@@ -8,7 +8,9 @@
 </p>
 
 ## Запуск Laravel
-Нужно запустить команду ` php artisan serve ` и перейти к http://127.0.0.1:8000/
+1) Нужно скопировать .env файл от .env.example `cp .env.example .env`
+2) Нужно запустить команду чтобы сгенерировать ключ `php artisan key:generate`
+3) Нужно запустить команду ` php artisan serve ` и перейти к http://127.0.0.1:8000/
 
 ## Discounts & Faqs
 Все дискаунты и faqs реализованы в массиве в файле MainController.php.  
